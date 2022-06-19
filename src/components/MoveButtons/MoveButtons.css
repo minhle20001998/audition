@@ -1,0 +1,60 @@
+.moveBtns {
+  display: flex;
+  gap: 1vw;
+  flex-direction: row;
+}
+
+.moveBtns .btn {
+  width: 3vw;
+  height: 3vw;
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: white;
+  -webkit-text-stroke: 0.1vw rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.moveBtns .btn.ok {
+  background: rgb(73, 255, 46) !important;
+  background: radial-gradient(
+    circle,
+    rgba(73, 255, 46, 1) 16%,
+    rgba(0, 149, 21, 1) 100%
+  ) !important;
+  box-shadow: 0 0 5px rgb(8, 155, 15) !important;
+}
+
+.moveBtns .btn.pending {
+  background: rgb(0, 212, 255);
+  background: radial-gradient(
+    circle,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(4, 108, 198, 1) 69%,
+    rgba(8, 0, 138, 1) 100%
+  );
+  box-shadow: 0 0 5px rgb(0, 129, 151);
+}
+
+.moveBtns .btn.fail {
+  background: rgb(175, 175, 175) !important;
+  background: radial-gradient(
+    circle,
+    rgba(175, 175, 175, 1) 49%,
+    rgba(84, 84, 84, 1) 100%
+  ) !important;
+  box-shadow: 0 0 5px rgb(82, 82, 82) !important;
+}
+.moveBtns .btn.reverse {
+  background: rgb(255, 153, 102);
+  background: radial-gradient(
+    circle,
+    rgba(255, 153, 102, 1) 0%,
+    rgba(255, 35, 0, 1) 60%,
+    rgba(227, 0, 0, 1) 100%
+  );
+  box-shadow: 0 0 5px rgb(207, 74, 12);
+}

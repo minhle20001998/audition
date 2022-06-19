@@ -1,0 +1,79 @@
+.modal-container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("https://au.vtc.vn/media/Audition/2018/01/30/au-noicamxucthanghoa.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("https://cdn.akamai.steamstatic.com/steam/apps/349720/capsule_616x353.jpg?t=1489460523");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 10px black;
+}
+
+.close-btn {
+  width: 10vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(194, 51, 128, 1) 0%,
+    rgba(0, 65, 255, 1) 100%
+  );
+  margin-bottom: 2vh;
+  font-size: 2vw;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 0 10px black;
+  transition: all ease-in-out 0.2s;
+}
+
+.close-btn:hover {
+  width: 12vw;
+  background: linear-gradient(
+    90deg,
+    rgba(194, 51, 128, 1) 100%,
+    rgba(0, 65, 255, 1) 100%
+  );
+}
+
+.last-score {
+  position: absolute;
+  top: 5vh;
+  font-size: 5vw;
+  white-space: nowrap;
+  text-align: right;
+  /* -webkit-text-stroke: 0.4vw rgb(255, 255, 255); */
+  background: -webkit-linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 157, 98, 1) 43%,
+    rgba(255, 95, 0, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}

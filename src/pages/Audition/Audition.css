@@ -1,0 +1,65 @@
+.game-container {
+  height: 100vh;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(51, 51, 51, 0.829),
+    rgba(15, 15, 15, 0.87)
+  ),
+  url("https://kenh14cdn.com/2018/4/6/nhac-audition-hay-nhat-2013-1523006437982179759007.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.above {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.performance {
+  font-size: 10vh;
+  white-space: nowrap;
+  text-align: right;
+  -webkit-text-stroke: 0.2vw rgb(43, 13, 0);
+  background: -webkit-linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(98, 166, 255) 43%,
+    rgb(0, 119, 255) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.below {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5vh 0 0 0;
+}
+
+.score {
+  font-size: 10vh;
+  position: absolute;
+  right: 4vw;
+  top: 1vh;
+  white-space: nowrap;
+  text-align: right;
+  /* -webkit-text-stroke: 0.4vw rgb(43, 13, 0); */
+  background: -webkit-linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 157, 98, 1) 43%,
+    rgba(255, 95, 0, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
